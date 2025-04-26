@@ -61,7 +61,7 @@ npm run dev
 
 ## 💡 Implementation Details
 
-I built this portfolio to replace my minimal previous website while maintaining the "wow" factor of my terminal-based site. The immersive 3D graphics and interactive animations create a memorable experience for prospective clients and employers, while the intuitive design ensures easy navigation.
+I built 3D portfolio graphics and interactive animations create a memorable experience for prospective clients and employers, while the intuitive design ensures easy navigation.
 
 The parallax effects respond dynamically to user movement, creating depth and dimension. Three.js powers the 3D elements, while Framer Motion handles smooth transitions and animations throughout the interface.
 
