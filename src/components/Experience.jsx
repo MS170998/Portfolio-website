@@ -123,9 +123,14 @@ const Experience = () => {
                     {[
                       "React", 
                       "TypeScript", 
-                      "Next.js", 
+                      "Node.js", 
                       "TailwindCSS", 
-                      index === 0 ? "UI/UX" : index === 1 ? "Node.js" : "JavaScript"
+                      "MongoDB",
+                      "MySQL",
+                      "AWS",
+                      "Docker",
+                      "Kubernetes",
+                      
                     ].map((skill, skillIndex) => (
                       <div
                         key={`skill-${index}-${skillIndex}`}
