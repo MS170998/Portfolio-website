@@ -1,12 +1,10 @@
-# 3D Parallax Developer Portfolio
+# Portfolio Website
 
-![Portfolio Preview](https://i.ibb.co/86NQD5c/thumbnail-3d-portfolio-smaller.jpg)
 
 ## ✨ Overview
 
 An immersive 3D developer portfolio website showcasing my projects and skills through interactive parallax effects, animations, and 3D graphics.
 
-[🔗 Live Demo](#) | [📹 Video Demo](https://youtu.be/f_ZxgQQ74Lc)
 
 ## 🚀 Features
 
@@ -23,12 +21,11 @@ An immersive 3D developer portfolio website showcasing my projects and skills th
     <td align="center"><img src="https://vitejs.dev/logo.svg" width="30px" /><br />Vite</td>
     <td align="center"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="30px" /><br />JavaScript</td>
     <td align="center"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="30px" /><br />React</td>
-    <td align="center"><img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" width="30px" /><br />Tailwind</td>
+    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="30px" /><br />Tailwind</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://aws1.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png" width="30px" /><br />Three.js</td>
+    <td align="center"><img src="https://raw.githubusercontent.com/mrdoob/three.js/dev/icon.png" width="30px" /><br />Three.js</td>
     <td align="center"><img src="https://framerusercontent.com/images/48ha9ZR9oZQGQ6gZ8YUfElP3T0A.png" width="30px" /><br />Framer Motion</td>
-    <td align="center"><img src="https://www.hostinger.com/assets/images/logo-desktop.svg" width="30px" /><br />Hostinger</td>
     <td align="center"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" width="30px" /><br />GitHub</td>
   </tr>
 </table>
@@ -51,7 +48,16 @@ npm run dev
 
 ## 📷 Screenshots
 
-<!-- Add 2-3 screenshots of your portfolio here -->
+<div align="center">
+  <img src="./screenshots/home.png" alt="Home Page" width="100%" style="margin-bottom: 20px"/>
+  
+  <div style="display: flex; justify-content: space-between; margin-bottom: 20px">
+    <img src="./screenshots/contact.png" alt="Contact Section" width="49%"/>
+    <img src="./screenshots/experience.png" alt="Experience Section" width="49%"/>
+  </div>
+  
+  <img src="./screenshots/skills.png" alt="Skills Section" width="100%"/>
+</div>
 
 ## 💡 Implementation Details
 
@@ -64,11 +70,3 @@ The parallax effects respond dynamically to user movement, creating depth and di
 - [Spaceman 3D Model](https://sketchfab.com/3d-models/tenhun-falling-spaceman-fanart-9fd80b6a259f41fd99e6f56eee686dc5) by wallmasterr
 - [Planet Surface Texture](https://stock.adobe.com/images/landscape-surface-of-planet-sky-space-science-fiction-fantasy-illustration/330880441?asset_id=330880441) by jongjawi
 - [Position Animation Reference](https://github.com/teshank2137/portfolio) by Teshank
-
-## 📝 License
-
-MIT © [Your Name]
-
----
-
-<p align="center">Made with ❤️ by [Your Name]</p>
