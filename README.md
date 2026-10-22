@@ -4,7 +4,7 @@
 
 My personal portfolio, bringing together the products I’ve shipped and my experience as a software engineer. An animated astronaut opens the page, followed by hands-on product previews, a little about me, and ways to get in touch.
 
-[GitHub](https://github.com/MS170998) · [LinkedIn](https://linkedin.com/in/mayanksingh17) · [Email](mailto:smayankanand3@gmail.com)
+[Live portfolio](https://mayank-singh.vercel.app/) · [GitHub](https://github.com/MS170998) · [LinkedIn](https://linkedin.com/in/mayanksingh17) · [Email](mailto:smayankanand3@gmail.com)
 
 ![Portfolio introduction with the animated astronaut, Mayank Singh’s name, and project navigation](screenshots/redesign-home.png)
 
@@ -103,7 +103,7 @@ index.html                    Page metadata and favicon reference
 
 ## Deployment
 
-The connected Vercel project automatically deploys pushes to `main`.
+The portfolio is live at [mayank-singh.vercel.app](https://mayank-singh.vercel.app/). The connected Vercel project automatically deploys pushes to `main`.
 
 For a new Vercel setup, import this repository, select the **Vite** framework preset, use `npm run build` as the build command, and `dist` as the output directory. No environment variables are needed for the current implementation.
 
