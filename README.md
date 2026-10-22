@@ -3,16 +3,16 @@
 
 ## ✨ Overview
 
-An immersive 3D developer portfolio website showcasing my projects and skills through interactive parallax effects, animations, and 3D graphics.
+Mayank Singh’s personal portfolio: a space-inspired introduction followed by an interactive showcase of Hello Drawing, RealTimeNote, and AgentSweep.
 
 
 ## 🚀 Features
 
 - **Immersive 3D Environment** - Interactive space-themed design with Three.js
-- **Parallax Effects** - Dynamic elements that respond to user movement
-- **Responsive Design** - Optimized for all device sizes (with minor parallax limitations on small screens)
-- **Project Showcase** - Highlighted portfolio projects with descriptions and links
-- **Smooth Animations** - Engaging transitions powered by Framer Motion
+- **Product Showcase** - Three live products with original interactive previews and direct links
+- **Responsive Design** - Product cards stack on phones, with a dedicated mobile astronaut layout
+- **Accessible Controls** - Keyboard navigation, reduced-motion support, expandable experience, and email copy
+- **Efficient Animation** - Lazy-loaded 3D scene that stops rendering when out of view
 
 ## 🛠️ Technologies
 
@@ -34,10 +34,10 @@ An immersive 3D developer portfolio website showcasing my projects and skills th
 
 ```bash 
 # Clone the repository
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://github.com/MS170998/Portfolio-website.git
 
 # Navigate to the project
-cd portfolio-website
+cd Portfolio-website
 
 # Install dependencies
 npm install
@@ -49,7 +49,7 @@ npm run dev
 ## 📷 Screenshots
 
 <div align="center">
-  <img src="./screenshots/home.png" alt="Home Page" width="100%" style="margin-bottom: 20px"/>
+  <img src="./screenshots/redesign-home.png" alt="Home Page" width="100%" style="margin-bottom: 20px"/>
   
   <div style="display: flex; justify-content: space-between; margin-bottom: 20px">
     <img src="./screenshots/contact.png" alt="Contact Section" width="49%"/>
@@ -61,9 +61,11 @@ npm run dev
 
 ## 💡 Implementation Details
 
-I built 3D portfolio graphics and interactive animations create a memorable experience for prospective clients and employers, while the intuitive design ensures easy navigation.
+`src/components/Projects.jsx` holds the product content and previews. The whiteboard is an original interactive illustration, the text demo mirrors input locally, and the storage preview uses clearly marked example data. Product links open the real applications.
 
-The parallax effects respond dynamically to user movement, creating depth and dimension. Three.js powers the 3D elements, while Framer Motion handles smooth transitions and animations throughout the interface.
+The astronaut keeps the existing 3D asset and animation, adds pointer and scroll movement, and respects the visitor’s reduced-motion preference. The footer also lets visitors turn motion off.
+
+Build with `npm run build`, then serve the generated `dist` directory with any static host. Run `npm run preview` to inspect the production build locally.
 
 ## 🙏 Credits & Resources
 
